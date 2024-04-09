@@ -4,9 +4,8 @@ import AuthLayout from "../Components/Layouts/AuthLayout";
 
 const Login = () => {
     return (
-        <AuthLayout title="Login" text="Silahkan Login Jika Kamu Punya Akun" >
+        <AuthLayout title="Login" text="Silahkan Login Jika Kamu Punya Akun" type="login" >
             <FormLogin />
-            <p>Belum punya akun? <Link to="/register">Register</Link></p>
         </AuthLayout>
 
     )
