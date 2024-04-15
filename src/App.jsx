@@ -1,6 +1,5 @@
-import Login from "./Pages/Login"
-import Register from "./Pages/Register"
-
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
       <Login />
       <Register />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
